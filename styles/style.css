@@ -83,7 +83,7 @@ nav a{
     width: 500px;
 }
 
-banner-content{
+.banner-content{
     max-width: 500px;
 }
 
@@ -93,7 +93,7 @@ banner-content{
     margin-bottom: 0;
 }
 
-banner-title{
+.banner-title{
     font-size: 85px;
     font-weight: 700;
     margin-top: 5px;
@@ -105,12 +105,27 @@ banner-title{
 } */
 
 /* main section styles  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 
 /* about section styles */
-about{
+
+.about{
     padding: 130px;
     border-radius: 10px;
     background-color: #fff8f3;
     margin: 130px ;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+}
+
+.about-info{
+    text-align: center;
 }
