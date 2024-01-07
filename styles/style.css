@@ -19,6 +19,23 @@ body{
 
 }
 
+.section-title{
+    color: #181818;
+    text-align: center;
+    /* font-family: Open Sans; */
+    font-size: 35px;
+    /* font-style: normal; */
+    font-weight: 700;
+    /* line-height: normal; */
+}
+
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+}
+
 /* nav related styles */
 nav{
     display: flex;
@@ -87,3 +104,13 @@ banner-title{
     
 } */
 
+/* main section styles  */
+
+
+/* about section styles */
+about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #fff8f3;
+    margin: 130px ;
+}
